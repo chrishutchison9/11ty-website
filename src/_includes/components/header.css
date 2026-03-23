@@ -21,6 +21,7 @@
 }
 .elv-header {
 	position: relative;
+	z-index: 1;
 }
 .elv-hed,
 .elv-nav-header {
