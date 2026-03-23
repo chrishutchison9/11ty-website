@@ -9,7 +9,7 @@ communityLinksKey: api-services-sparkline
 
 {% tableofcontents %}
 
-{% callout "warn", "md", "Deprecation Notice" %}The runtime service for Sparkline SVG is deprecated and will likely go away at some future date. Please switch to use a build-time SVG package directly (e.g. [`sparkline-svg`](https://www.npmjs.com/package/sparkline-svg)). Sample code shown:{% endcallout %}
+{% callout "error", "md", "Deprecated" %}The runtime service for Sparkline SVG is deprecated and will likely go away at some future date. Please switch to use a build-time SVG package directly (e.g. [`sparkline-svg`](https://www.npmjs.com/package/sparkline-svg)). Sample code shown below. If you’re using [Web Awesome](https://webawesome.com/), they have a [Sparkline](https://webawesome.com/docs/components/sparkline) too!{% endcallout %}
 
 {%- highlight "js" %}
 // don’t forget to `npm install sparkline-svg`
@@ -34,8 +34,6 @@ function sparklineDataUri(values = []) {
 - [`11ty/api-sparkline` on GitHub](https://github.com/11ty/api-sparkline)
 
 ## Usage
-
-Try it out on the [Eleventy API Explorer](https://api-explorer.11ty.dev/).
 
 Image URLs have the format:
 
