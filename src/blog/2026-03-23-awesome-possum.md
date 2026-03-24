@@ -2,6 +2,7 @@
 newstitle: "The Possum Mascot, now with additional Awesome"
 eleventyNavigation:
   parent: Blog
+screenshotCacheBust: 1
 ---
 As Eleventy [enters the Awesomeverse as Build Awesome](/blog/build-awesome/) and joins the esteemed ranks of both Font Awesome and Web Awesome, the possum is taking on more responsibility as well.
 
