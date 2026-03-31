@@ -387,7 +387,7 @@ export default async function (eleventyConfig) {
 
 	eleventyConfig.addPassthroughCopy({
 		[resolveModule("@11ty/logo/assets/logo-bg.svg")]: "img/logo-github.svg",
-		[resolveModule("@11ty/logo/assets/open-graph.jpg")]: "img/open-graph.jpg",
+		// [resolveModule("@11ty/logo/assets/open-graph.jpg")]: "img/open-graph.jpg",
 		[resolveModule("@11ty/logo/img/logo-784x1093.png")]: "img/logo.png",
 		[resolveModule("@11ty/logo/img/logo-200x200.png")]: "img/logo-github.png",
 		[resolveModule("@11ty/logo/img/logo-96x96.png")]: "img/favicon.png",
