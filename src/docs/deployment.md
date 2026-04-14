@@ -25,7 +25,7 @@ hosts:
     url: https://docs.gitlab.com/ee/user/project/pages/
     screenshotSize: medium
   - name: Render
-    url: https://render-web.onrender.com/
+    url: https://render.com/docs/static-sites
     screenshotSize: medium
   - name: Azure Static Web Apps
     url: https://azure.microsoft.com/en-us/services/app-service/static/
