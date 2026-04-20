@@ -135,7 +135,6 @@ class TimeDifference extends HTMLElement {
 		if(this.live) {
 			// Minimum 40 milliseconds
 			let interval = await this.getInterval();
-			console.log( {interval} );
 			setInterval(this.update.bind(this), interval);
 		}
 	}
