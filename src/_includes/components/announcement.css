@@ -41,6 +41,8 @@
 	border: .125rem solid var(--btn-shadow-color);
 }
 .announcement-btn,
+.announcement-btn:visited,
+.announcement-btn[href],
 .announcement > a,
 .announcement > a:visited,
 .announcement > a:any-link {
