@@ -556,3 +556,13 @@ filter-container:defined form {
 .elv-blog-navigation:is(ul, ol) li:last-child svg {
 	margin-inline: .5em 0;
 }
+
+code.elv-tag {
+	display: inline-flex;
+	align-items: center;
+	font-size: .75em;
+	white-space: nowrap;
+	margin-inline: .25em;
+	padding: .15em .5em .15em .35em;
+	border-radius: .5em;
+}
