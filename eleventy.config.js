@@ -404,7 +404,7 @@ export default async function (eleventyConfig) {
 		[resolveModule("@11ty/logo/img/logo-200x200.png")]: "img/logo-github.png",
 		[resolveModule("@11ty/logo/img/logo-96x96.png")]: "img/favicon.png",
 
-		[resolveModule("speedlify-score")]: "js/speedlify-score.js",
+		[resolveModule("speedlify2-score")]: "js/speedlify2-score.js",
 		[resolveModule("@zachleat/seven-minute-tabs")]: "js/seven-minute-tabs.js",
 		[resolveModule("@zachleat/filter-container")]: "js/filter-container.js",
 		[resolveModule("lite-youtube-embed")]: `js/lite-yt-embed.js`,
